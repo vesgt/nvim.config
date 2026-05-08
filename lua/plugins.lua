@@ -33,4 +33,6 @@ vim.pack.add({
 
     "https://github.com/akinsho/bufferline.nvim",
     "https://github.com/echasnovski/mini.bufremove",
+
+    "https://github.com/folke/which-key.nvim",
 })
