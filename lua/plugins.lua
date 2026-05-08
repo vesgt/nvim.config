@@ -20,10 +20,14 @@ vim.pack.add({
 
     "https://github.com/EskelinenAntti/omarchy-theme-loader.nvim",
 
+    -- Lsp -- Start --
     "https://github.com/neovim/nvim-lspconfig",
-
     "https://github.com/mason-org/mason.nvim",
     "https://github.com/mason-org/mason-lspconfig.nvim",
+
+    "https://github.com/seblyng/roslyn.nvim",
+
+    -- Lsp -- End --
 
     "https://github.com/stevearc/conform.nvim",
     "https://github.com/folke/snacks.nvim",

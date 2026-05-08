@@ -88,6 +88,10 @@
       "rev": "8c6bad7d22eef1b71144b401c9f74ed01526a4fb",
       "src": "https://github.com/ahmedkhalf/project.nvim"
     },
+    "roslyn.nvim": {
+      "rev": "b62d1a588765f0aa1b46ed260252c9e456408835",
+      "src": "https://github.com/seblyng/roslyn.nvim"
+    },
     "snacks.nvim": {
       "rev": "ad9ede6a9cddf16cedbd31b8932d6dcdee9b716e",
       "src": "https://github.com/folke/snacks.nvim"
