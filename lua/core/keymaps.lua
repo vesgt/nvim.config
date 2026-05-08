@@ -6,7 +6,11 @@ map("n", "<leader>nb", "<cmd>Neotree buffers<cr>", { desc = "Opens current buffe
 map("n", "<leader>ff", "<cmd>FzfLua files<cr>", { desc = "Opens fuzzy finder" })
 map("n", "<leader>fR", "<cmd>FzfLua resume<cr>", { desc = "Resume fuzzy finding where you left it" })
 
-map("n", "<leader>bd", "<cmd>bdelete<cr>", { desc = "Delete buffer" })
+vim.keymap.set("n", "<leader>bd", function()
+    require("mini.bufremove").delete(0, false)
+end, {
+    desc = "Delete buffer",
+})
 map("n", "<leader>bn", "<cmd>bnext<cr>", { desc = "Next buffer" })
 map("n", "<leader>bp", "<cmd>bprevious<cr>", { desc = "Previous buffer" })
 
